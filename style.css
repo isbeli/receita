@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+} 
+
+html,body {
+    height:100%;
+    
+}
+
+header {
+    display:block;
+    margin:auto;
+    background:#bed2f8;
+    padding:10px 0px;
+}
+
+header div img{
+    display:block;
+    margin:auto;
+    width:100%;
+}
+img{
+    display:block;
+    margin:auto;
+    float: right;
+    
+}
+
+body  .right{
+    display:block;
+    margin-right:10px ;
+    float: right;
+}
+
+body p{
+    margin-left: 5px;
+}
+
+body .right h2{
+    text-align: left;
+}
+
+body video{
+    margin-left: 50px;   
+}
+
+section {
+    width: 79%;
+    background: #ccc;
+    float: left;
+    overflow: auto;
+    padding-bottom: 60px;
+    padding-top:30px;
+}
+
+aside {
+    float: right;
+    border: 1px solid red;
+    width: 19%;
+    border: 1px solid red;
+    /*Si quisieramos ocultar el contenido relacionado pondriamos visibility a hidden*/
+    /*visibility: hidden;*/
+}
+footer {
+    position: relative;
+    margin-bottom: 0%;
+    height: 40px; 
+    padding:5px 0px;
+    clear: both;
+    background: #286af0;
+    text-align: center;
+    color: #fff;
+}
+figure {
+    display: table; margin: 0 auto;
+}
+
+
+h1{ 
+    text-shadow: 5px 5px 5px #00e1ff;
+    text-align: center;
+    color:rgb(9, 65, 32);
+}
+
+h2 {
+
+    
+    text-align: center;
+}
+h3{
+
+    background-color: rgb(183, 221, 255);
+    text-align: center;
+}
+h4{
+    margin-left: 5px;
+}
+
+ol{
+    list-style-type : decimal-leading-zero; 
+    padding-left: 2em;
+    margin-left: 10px;
+}
+ul{
+    list-style-type: square;
+    margin-left: 10px;
+}
+
+.centralizado {
+    text-align: center;
+    background-image: image(img/style1);
+}
+
+
