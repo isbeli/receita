@@ -1,50 +1,71 @@
-*{
-    margin: 0;
-   padding: 0;
-   box-sizing: border-box;
-} 
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Heebo:wght@600&family=Press+Start+2P&family=Roboto:ital,wght@0,700;1,400;1,700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
-html,body {
-    height:100%;
-    
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Heebo:wght@600&family=Lilita+One&family=Press+Start+2P&family=Roboto:ital,wght@0,700;1,400;1,700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+
 }
 
 header {
-    display:block;
-    margin:auto;
-    background:#bed2f8;
-    padding:10px 0px;
+    display: block;
+    margin: auto;
+    background: #bed2f845
 }
 
-header div img{
-    display:block;
-    margin:auto;
-    width:100%;
+header div img {
+    display: block;
+    margin: auto;
+    width: 100%;
 }
-img{
-    display:block;
-    margin:auto;
+
+img {
+    display: block;
+    margin: auto;
     float: right;
-    
+
 }
 
-body  .right{
-    display:block;
-    margin-right:10px ;
+.container {
+    padding: 30px;
+}
+
+body .right {
+    display: block;
+    margin-right: 10px;
     float: right;
 }
 
-body p{
+body p, li {
     margin-left: 5px;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
 }
 
-body .right h2{
+h1, h2, h3, h4 {
+    font-family: "Heebo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+body .right h2 {
     text-align: left;
 }
 
-body video{
-    margin-left: 50px;   
+body video {
+    margin-left: 50px;
 }
+
 
 section {
     width: 79%;
@@ -52,7 +73,7 @@ section {
     float: left;
     overflow: auto;
     padding-bottom: 60px;
-    padding-top:30px;
+    padding-top: 30px;
 }
 
 aside {
@@ -63,47 +84,50 @@ aside {
     /*Si quisieramos ocultar el contenido relacionado pondriamos visibility a hidden*/
     /*visibility: hidden;*/
 }
+
 footer {
     position: relative;
     margin-bottom: 0%;
-    height: 40px; 
-    padding:5px 0px;
+    height: 40px;
+    padding: 5px 0px;
     clear: both;
     background: #286af0;
     text-align: center;
     color: #fff;
 }
+
 figure {
-    display: table; margin: 0 auto;
+    display: table;
+    margin: 0 auto;
 }
 
 
-h1{ 
+h1 {
     text-shadow: 5px 5px 5px #00e1ff;
     text-align: center;
-    color:rgb(9, 65, 32);
+    color: rgb(9, 65, 32);
 }
 
 h2 {
-
-    
     text-align: center;
 }
-h3{
 
+h3 {
     background-color: rgb(183, 221, 255);
     text-align: center;
 }
-h4{
+
+h4 {
     margin-left: 5px;
 }
 
-ol{
-    list-style-type : decimal-leading-zero; 
+ol {
+    list-style-type: decimal-leading-zero;
     padding-left: 2em;
     margin-left: 10px;
 }
-ul{
+
+ul {
     list-style-type: square;
     margin-left: 10px;
 }
@@ -112,5 +136,3 @@ ul{
     text-align: center;
     background-image: image(img/style1);
 }
-
-
